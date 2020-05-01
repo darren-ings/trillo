@@ -319,6 +319,10 @@
     @media only screen and (max-width: $bp-small) {
       font-size: 1.8rem;
     }
+
+    @media only screen and (max-width: $bp-smallest) {
+      margin-bottom: 1rem;
+    }
   }
 
   &__rating-count {
@@ -327,6 +331,10 @@
 
     @media only screen and (max-width: $bp-small) {
       font-size: 0.5rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+      text-align: center;
     }
   }
 }
